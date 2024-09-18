@@ -1,0 +1,21 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgba(254,252,252,1) 2%, rgba(254,245,240,1) 29%, rgba(253,231,210,1) 84%);
+}
+
+.login-content {
+    text-align: center;
+}
+
+.login-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login-google-button {
+    margin-top: 20px;
+}

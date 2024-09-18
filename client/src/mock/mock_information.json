@@ -1,0 +1,187 @@
+{
+  "vegetarian": false,
+  "vegan": false,
+  "glutenFree": true,
+  "dairyFree": false,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 111,
+  "gaps": "no",
+  "preparationMinutes": 15,
+  "cookingMinutes": 33,
+  "aggregateLikes": 0,
+  "healthScore": 100,
+  "creditsText": "Recipezaar",
+  "sourceName": "Recipezaar",
+  "pricePerServing": 1371.5,
+  "extendedIngredients": [
+    {
+      "id": 6010,
+      "aisle": "Canned and Jarred",
+      "image": "cream-of-celery-soup.jpg",
+      "consistency": "LIQUID",
+      "name": "cream of celery soup",
+      "nameClean": "condensed cream of celery soup",
+      "original": "1 (10 3/4 oz) can cream of celery soup",
+      "originalName": "cream of celery soup",
+      "amount": 10.75,
+      "unit": "oz",
+      "meta": ["canned"],
+      "measures": {
+        "us": { "amount": 10.75, "unitShort": "oz", "unitLong": "ounces" },
+        "metric": { "amount": 304.757, "unitShort": "g", "unitLong": "grams" }
+      }
+    },
+    {
+      "id": 93709,
+      "aisle": "Canned and Jarred",
+      "image": "fried-onions.jpg",
+      "consistency": "SOLID",
+      "name": "french-fried onions",
+      "nameClean": "fried onions",
+      "original": "1 (2 7/8 oz) can French-fried onions",
+      "originalName": "French-fried onions",
+      "amount": 2.875,
+      "unit": "oz",
+      "meta": ["canned"],
+      "measures": {
+        "us": { "amount": 2.875, "unitShort": "oz", "unitLong": "ounces" },
+        "metric": { "amount": 81.505, "unitShort": "g", "unitLong": "grams" }
+      }
+    },
+    {
+      "id": 11390,
+      "aisle": "Frozen",
+      "image": "hash-brown-potatoes.png",
+      "consistency": "SOLID",
+      "name": "hash browns",
+      "nameClean": "hash browns",
+      "original": "5 cups frozen hash browns , thawed",
+      "originalName": "frozen hash browns , thawed",
+      "amount": 5.0,
+      "unit": "cups",
+      "meta": ["frozen", "thawed"],
+      "measures": {
+        "us": { "amount": 5.0, "unitShort": "cups", "unitLong": "cups" },
+        "metric": { "amount": 1.05, "unitShort": "l", "unitLong": "liters" }
+      }
+    },
+    {
+      "id": 21118,
+      "aisle": "Meat",
+      "image": "hotdogs.png",
+      "consistency": "SOLID",
+      "name": "hot dogs",
+      "nameClean": "hot dogs",
+      "original": "6 hot dogs, cut lengthwise (but not all the way through)",
+      "originalName": "hot dogs, cut lengthwise (but not all the way through)",
+      "amount": 6.0,
+      "unit": "",
+      "meta": ["(but not all the way through)"],
+      "measures": {
+        "us": { "amount": 6.0, "unitShort": "", "unitLong": "" },
+        "metric": { "amount": 6.0, "unitShort": "", "unitLong": "" }
+      }
+    },
+    {
+      "id": 1002030,
+      "aisle": "Spices and Seasonings",
+      "image": "pepper.jpg",
+      "consistency": "SOLID",
+      "name": "pepper",
+      "nameClean": "black pepper",
+      "original": "1/4 tsp pepper",
+      "originalName": "pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 0.25, "unitShort": "tsps", "unitLong": "teaspoons" },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "1/2 tsp salt",
+      "originalName": "salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 0.5, "unitShort": "tsps", "unitLong": "teaspoons" },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1001009,
+      "aisle": "Cheese",
+      "image": "shredded-cheddar.jpg",
+      "consistency": "SOLID",
+      "name": "cheddar cheese",
+      "nameClean": "shredded cheddar cheese",
+      "original": "1 cup shredded cheddar cheese (4 oz.)",
+      "originalName": "cup shredded cheddar cheese",
+      "amount": 4.0,
+      "unit": "oz",
+      "meta": ["shredded"],
+      "measures": {
+        "us": { "amount": 4.0, "unitShort": "oz", "unitLong": "ounces" },
+        "metric": { "amount": 113.398, "unitShort": "g", "unitLong": "grams" }
+      }
+    },
+    {
+      "id": 1056,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "sour-cream.jpg",
+      "consistency": "SOLID",
+      "name": "cream",
+      "nameClean": "sour cream",
+      "original": "1 cup sour cream",
+      "originalName": "sour cream",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": ["sour"],
+      "measures": {
+        "us": { "amount": 1.0, "unitShort": "cup", "unitLong": "cup" },
+        "metric": {
+          "amount": 230.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    }
+  ],
+  "id": 73791,
+  "title": "Hash Browns Taters With Dogs",
+  "readyInMinutes": 48,
+  "servings": 1,
+  "sourceUrl": "http://www.recipezaar.com/Hash-Browns-Taters-With-Dogs-57317",
+  "image": "https://spoonacular.com/recipeImages/73791-556x370.jpg",
+  "imageType": "jpg",
+  "summary": "You can never have too many side dish recipes, so give Hash Browns Taters With Dogs a try. This gluten free recipe serves 1 and costs <b>$13.72 per serving</b>. One serving contains <b>3176 calories</b>, <b>86g of protein</b>, and <b>183g of fat</b>. Head to the store and pick up cream of celery soup, french-fried onions, salt, and a few other things to make it today. It is an <b>expensive</b> recipe for fans of American food. This recipe is liked by 1 foodies and cooks. From preparation to the plate, this recipe takes approximately <b>48 minutes</b>. It is brought to you by Recipezaar. All things considered, we decided this recipe <b>deserves a spoonacular score of 85%</b>. This score is tremendous. Try <a href=\"https://spoonacular.com/recipes/hash-brown-taters-with-dogs-136189\">Hash Brown Taters With Dogs</a>, <a href=\"https://spoonacular.com/recipes/hash-browns-40148\">Hash Browns</a>, and <a href=\"https://spoonacular.com/recipes/hash-browns-omelet-1321613\">Hash Browns Omelet</a> for similar recipes.",
+  "cuisines": ["American"],
+  "dishTypes": ["side dish"],
+  "diets": ["gluten free"],
+  "occasions": [],
+  "winePairing": { "pairedWines": [], "pairingText": "", "productMatches": [] },
+  "instructions": null,
+  "analyzedInstructions": [],
+  "originalId": null,
+  "spoonacularScore": 16.412364959716797
+}

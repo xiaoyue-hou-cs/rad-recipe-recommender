@@ -1,0 +1,77 @@
+.my-recipelist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: justify;
+  width: [width of img];
+}
+
+.search-bar-input {
+  display: block;
+  width: 75%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.my-recipelist div img {
+  padding: 5px;
+  width: auto;
+}
+
+.recipe-title {
+  display: block;
+  width: 200px;
+}
+
+.user-id-search {
+  display: block;
+  width: 75%;
+  height: 50px;
+  font-size: larger;
+  margin: auto;
+}
+
+.user-text {
+  display: block;
+  font-size: larger;
+  text-align: center;
+  padding: 10px;
+}
+
+.everything-else {
+  background-image: url("food2.jpg");
+  background-attachment: scroll;
+}
+
+.user-div {
+  display: block;
+  margin: auto;
+}
+
+.gallery-button {
+  display: block;
+  width: 40%;
+  height: 50px;
+  margin: auto;
+  font-size: large;
+  margin-top: 10px;
+  border-style: outset;
+  border-width: 3px;
+  border-color: rgb(211, 188, 161);
+  text-align: center;
+}
+
+.gallery-button:active {
+  opacity: 0.85;
+}
+
+.back-button {
+  text-align: center;
+}
+
+.back-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

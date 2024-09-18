@@ -1,0 +1,25 @@
+/* CSS used from https://www.w3schools.com/css/css_navbar_horizontal.asp */
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(75, 46, 20);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(211, 188, 161);
+  padding: 14px 74px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(192, 168, 116);
+}

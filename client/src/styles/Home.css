@@ -1,0 +1,133 @@
+/* Styling for buttons and gradient */
+button {
+  background-color: #d6ad9b;
+  color: #601b14;
+  border: 100px;
+  text-decoration: none;
+  display: inline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 14px 16px;
+  border-radius: 200px;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 16px;
+  border-style: outset;
+  border-width: 2px;
+  border-color: rgb(145, 217, 164);
+}
+button:active {
+  opacity: 0.85;
+}
+
+button:hover {
+  background-color: #9eb497;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.left-item {
+  width: 200px;
+}
+.right-item {
+  align-self: flex-start;
+  width: 1100px;
+}
+
+.left-item {
+  flex: 4;
+  background-image: url("food2.jpg");
+  /* background-repeat:repat; */
+  height: 100vh;
+  font-weight: bold;
+  background-attachment: fixed; /* Set the background attachment to fixed */
+  overflow-y: scroll;
+}
+
+.button-holder {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.right-item {
+  background-color: rgb(211, 188, 161);
+  opacity: 100%;
+  height: 100vh;
+
+  margin-top: 0;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.userWelcome {
+  text-align: left;
+  margin-right: 50px;
+  margin-left: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  color: #342c05;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-recipelist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.my-recipelist div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-recipelist div img {
+  padding: 5px;
+  width: auto;
+}
+
+.incoming-friends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.incoming-friends div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.incoming-friends div img {
+  padding: 5px;
+  width: auto;
+}
+
+.recipe-title {
+  display: block;
+  width: 200px;
+}
+
+.edit-section {
+  display: none;
+}

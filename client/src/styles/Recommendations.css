@@ -1,0 +1,18 @@
+.recommended {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: justify;
+  width: [width of img];
+}
+
+.recommended div img {
+  padding: 5px;
+  width: auto;
+}
+
+.recipe-title {
+  display: block;
+  width: 200px;
+}

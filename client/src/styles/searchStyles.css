@@ -1,0 +1,100 @@
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+.everything-else {
+  background-image: url("food2.jpg");
+  height: 100vh;
+  justify-content: center;
+  background-attachment: fixed; /* Set the background attachment to fixed */
+  background-size: cover;
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+fieldset {
+  background-color: rgb(211, 188, 161);
+  width: 100%;
+}
+
+.alert {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: large;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  flex-direction: row; /* Align content in a row */
+  width: 100%;
+}
+
+.alert p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: medium;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  flex-direction: row; /* Align content in a row */
+  width: 100%;
+}
+
+.search div img {
+  padding: 2px;
+  width: auto;
+}
+.image-title {
+  display: block;
+  width: 100%; /* Adjust width as needed */
+  margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Center text */
+  font-weight: bold;
+}
+
+.search-input-box {
+  display: block;
+  width: 75%;
+  height: 30px;
+  align-content: center;
+  margin: auto;
+  padding-top: 10px;
+  font-size: large;
+}
+
+.drop-downs {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-bar-input {
+  display: block;
+  width: 75%;
+  margin: auto;
+  padding-top: 10px;
+}
+.search-button {
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+  align-self: center;
+  width: 40%;
+  height: 50px;
+  font-size: large;
+  border-style: outset;
+  border-width: 3px;
+  border-color: rgb(174, 168, 121);
+}
+.search-button:active {
+  opacity: 0.85;
+}
+
+.add-button {
+  display: block;
+  margin: auto;
+}

@@ -1,0 +1,87 @@
+.my-friendlist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: justify;
+  width: [width of img];
+}
+
+.my-friendlist div img {
+  padding: 5px;
+  width: auto;
+}
+
+.alert-text {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: large;
+}
+
+.friend-title {
+  display: block;
+  width: 200px;
+  font-weight: bold;
+}
+
+.remove-friend-button {
+  font-size: medium;
+}
+
+.everything-else {
+  background-image: url("food2.jpg");
+}
+
+.friends-div {
+  display: block;
+  width: 75%;
+  height: 50px;
+  font-size: larger;
+  margin: auto;
+}
+.add-friends-button {
+  display: block;
+  width: 40%;
+  height: 50px;
+  margin: auto;
+  margin-top: 10px;
+  font-size: large;
+  border-style: outset;
+  border-width: 3px;
+  border-color: rgb(145, 217, 164);
+}
+.add-friends-button:active {
+  opacity: 0.85;
+}
+
+.friend-text {
+  display: block;
+  text-align: center;
+  font-size: larger;
+  padding: 10px;
+}
+
+.friendlist {
+  font-size: larger;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center-align the items horizontally */
+  align-items: center;
+}
+
+.friendlist > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align the items horizontally within each div */
+  margin: 10px; /* Add margin for spacing between items */
+  text-align: center; /* Center-align text content */
+}
+
+.search-bar-input {
+  display: block;
+  width: 75%;
+  margin: auto;
+  padding-top: 10px;
+}
